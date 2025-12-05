@@ -18,7 +18,7 @@ Este proyecto es un CV interactivo desarrollado con React y Vite que implementa 
 
 1. **Clonar el repositorio:**
 ```bash
-git clone https://github.com/tu-usuario/cv-react-juliana-perez.git
+git clone https://github.com/JulesPrz/cv-react-juliana-perez.git
 cd cv-react-juliana-perez
 ```
 
@@ -45,3 +45,4 @@ El proyecto estará disponible en `http://localhost:5173`
 ## Licencia
 
 Este proyecto fue desarrollado como parte de la formación en SENA - Análisis y Desarrollo de Software.
+
