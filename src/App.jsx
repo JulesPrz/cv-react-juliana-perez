@@ -15,7 +15,7 @@ function App() {
         telefono={datosPersonales.telefono}
         email={datosPersonales.email}
       />
-      <Perfil />
+      <Perfil resumen={perfilProfesional.resumen} />
       <StackTecnologias />
       <Experiencia />
       <Educacion />
