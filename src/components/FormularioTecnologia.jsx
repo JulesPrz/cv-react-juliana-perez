@@ -70,13 +70,13 @@ const FormularioTecnologia = ({ onAgregarTecnologia }) => {
               padding: '0.75rem',
               fontSize: '1rem',
               borderRadius: '8px',
-              border: '2px solid #a855f7',
+              border: '2px solid #830f85ff',
               background: '#2d2d2d',
               color: '#ffffff',
               outline: 'none',
               transition: 'border-color 0.3s'
             }}
-            onFocus={(e) => e.target.style.borderColor = '#a855f7'}
+            onFocus={(e) => e.target.style.borderColor = '#830f85ff'}
             onBlur={(e) => e.target.style.borderColor = '#830f85ff'}
           />
         </div>
@@ -116,7 +116,7 @@ const FormularioTecnologia = ({ onAgregarTecnologia }) => {
             padding: '0.875rem 2rem',
             fontSize: '1rem',
             fontWeight: '700',
-            background: '#a855f7',
+            background: '#830f85ff',
             color: 'white',
             border: 'none',
             borderRadius: '8px',
