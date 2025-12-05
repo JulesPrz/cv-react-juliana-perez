@@ -184,8 +184,8 @@ export const formacion = [
   }
 ];
 
-// Stack de tecnologías
-export const tecnologias = [
+// Stack de tecnologías (datos iniciales)
+export const tecnologiasIniciales = [
   { id: 1, nombre: "JavaScript", nivel: "avanzado" },
   { id: 2, nombre: "React", nivel: "avanzado" },
   { id: 3, nombre: "HTML5", nivel: "avanzado" },
@@ -201,4 +201,33 @@ export const tecnologias = [
   { id: 13, nombre: "Python", nivel: "basico" },
   { id: 14, nombre: "MySQL", nivel: "intermedio" },
   { id: 15, nombre: "Vite", nivel: "intermedio" }
+];
+
+// Habilidades profesionales
+export const habilidades = [
+  {
+    id: 1,
+    nombre: "Trabajo en Equipo",
+    descripcion: "Colaboración efectiva en equipos multidisciplinarios usando metodologías ágiles"
+  },
+  {
+    id: 2,
+    nombre: "Resolución de Problemas",
+    descripcion: "Análisis lógico y creativo para encontrar soluciones eficientes"
+  },
+  {
+    id: 3,
+    nombre: "Comunicación",
+    descripcion: "Capacidad para explicar conceptos técnicos de forma clara y concisa"
+  },
+  {
+    id: 4,
+    nombre: "Aprendizaje Continuo",
+    descripcion: "Autodidacta con pasión por estar actualizada en nuevas tecnologías"
+  },
+  {
+    id: 5,
+    nombre: "Gestión del Tiempo",
+    descripcion: "Organización y priorización efectiva de tareas y proyectos"
+  }
 ];
