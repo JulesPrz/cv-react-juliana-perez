@@ -89,18 +89,18 @@ const Educacion = () => {
   // Función para obtener el color según el tipo de formación
   const obtenerColorTipo = (tipo) => {
     const colores = {
-      "Tecnólogo": "#10b981",
-      "Técnico": "#3b82f6",
-      "Curso": "#f59e0b",
-      "Taller": "#8b5cf6",
-      "Seminario": "#ec4899"
+      "Tecnólogo": "#a237a4ff",
+      "Técnico": "#a077a1ff",
+      "Curso": "#58105aff",
+      "Taller": "#710a5eff",
+      "Seminario": "rgba(117, 21, 106, 1)ff"
     };
     return colores[tipo] || "#6b7280";
   };
 
   return (
     <section className="educacion-section">
-      <h2>🎓 Formación Académica</h2>
+      <h2>Formación Académica</h2>
       <div className="educacion-container">
         {formacion.map((edu) => (
           <div key={edu.id} className="educacion-card">
