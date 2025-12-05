@@ -1,4 +1,4 @@
-export default function CabeceraCV(props) {
+export default function CabeceraCV({ nombre, cargo, ciudad, telefono, email }) {
   return (
     <header style={{
       textAlign: 'center',
@@ -8,10 +8,10 @@ export default function CabeceraCV(props) {
       marginBottom: '2rem'
     }}>
       <h1 style={{ margin: '0.5rem 0', fontSize: '2.5rem' }}>
-        {props.nombre}
+        {nombre}
       </h1>
       <h2 style={{ margin: '0.5rem 0', fontWeight: '400', fontSize: '1.5rem' }}>
-        {props.cargo}
+        {cargo}
       </h2>
       <div style={{ 
         display: 'flex', 
@@ -21,9 +21,9 @@ export default function CabeceraCV(props) {
         fontSize: '1rem',
         flexWrap: 'wrap'
       }}>
-        <span>{props.ciudad}</span>
-        <span>{props.telefono}</span>
-        <span>{props.email}</span>
+        <span>{ciudad}</span>
+        <span>{telefono}</span>
+        <span>{email}</span>
       </div>
     </header>
   );
