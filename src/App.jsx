@@ -18,7 +18,7 @@ function App() {
       <Perfil resumen={perfilProfesional.resumen} />
       <StackTecnologias tecnologias={tecnologias} />
       <Experiencia experiencias={experiencias} />
-      <Educacion />
+      <Educacion formacion={formacion} />
     </div>
   );
 }
