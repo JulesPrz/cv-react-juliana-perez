@@ -16,8 +16,8 @@ function App() {
         email={datosPersonales.email}
       />
       <Perfil resumen={perfilProfesional.resumen} />
-      <StackTecnologias />
-      <Experiencia />
+      <StackTecnologias tecnologias={tecnologias} />
+      <Experiencia experiencias={experiencias} />
       <Educacion />
     </div>
   );
