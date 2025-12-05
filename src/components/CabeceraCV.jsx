@@ -1,4 +1,4 @@
-export default function CabeceraCV() {
+export default function CabeceraCV(props) {
   return (
     <header style={{
       textAlign: 'center',
@@ -8,20 +8,22 @@ export default function CabeceraCV() {
       marginBottom: '2rem'
     }}>
       <h1 style={{ margin: '0.5rem 0', fontSize: '2.5rem' }}>
-        Juliana Pérez Chavarría
+        {props.nombre}
       </h1>
       <h2 style={{ margin: '0.5rem 0', fontWeight: '400', fontSize: '1.5rem' }}>
-        Desarrollador FullStack Jr.
+        {props.cargo}
       </h2>
       <div style={{ 
         display: 'flex', 
         justifyContent: 'center', 
         gap: '2rem',
         marginTop: '1rem',
-        fontSize: '1rem'
+        fontSize: '1rem',
+        flexWrap: 'wrap'
       }}>
-        <span>3137369217</span>
-        <span>julisperez.ch@gmail.com</span>
+        <span>{props.ciudad}</span>
+        <span>{props.telefono}</span>
+        <span>{props.email}</span>
       </div>
     </header>
   );

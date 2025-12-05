@@ -8,7 +8,13 @@ import { datosPersonales, perfilProfesional, experiencias, formacion, tecnologia
 function App() {
   return (
     <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '2rem' }}>
-      <CabeceraCV />
+      <CabeceraCV 
+        nombre={datosPersonales.nombre}
+        cargo={datosPersonales.cargo}
+        ciudad={datosPersonales.ciudad}
+        telefono={datosPersonales.telefono}
+        email={datosPersonales.email}
+      />
       <Perfil />
       <StackTecnologias />
       <Experiencia />
