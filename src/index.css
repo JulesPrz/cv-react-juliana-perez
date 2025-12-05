@@ -66,3 +66,236 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Estilos para Experiencia */
+.experiencia-section {
+  margin: 2rem 0;
+  padding: 2rem;
+  background:rgb(38, 4, 39);
+  border-radius: 12px;
+}
+
+.experiencia-section h2 {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.experiencias-container {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.experiencia-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #830f85ff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.experiencia-card:hover {
+  transform: translateX(5px);
+}
+
+.experiencia-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.experiencia-card h3 {
+  color: #1f2937;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.experiencia-card h4 {
+  color: #6b7280;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.experiencia-card p {
+  color: #4b5563;
+  line-height: 1.6;
+  margin: 0.5rem 0 0 0;
+}
+
+.año-badge {
+  background: #830f85ff;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+/* Estilos para Educación */
+.educacion-section {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #1a1a1a;
+  border-radius: 12px;
+}
+
+.educacion-section h2 {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.educacion-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.educacion-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.educacion-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.educacion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.tipo-badge {
+  color: white;
+  padding: 0.375rem 0.875rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.año-educacion {
+  color: #6b7280;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.educacion-card h3 {
+  color: #1f2937;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+.institucion {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0 0;
+  font-style: italic;
+}
+
+/* Estilos para Stack de Tecnologías */
+.stack-section {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #1a1a1a;
+  border-radius: 12px;
+  color: white;
+}
+
+.stack-section h2 {
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.tecnologias-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tech-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 2px solid transparent;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.tech-tag:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.tech-nombre {
+  font-weight: 700;
+}
+
+.tech-nivel {
+  font-size: 0.875rem;
+}
+
+.leyenda {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid rgba(255,255,255,0.3);
+}
+
+.leyenda h3 {
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.leyenda-items {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.leyenda-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  font-weight: 500;
+}
+
+.leyenda-color {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tecnologias-container {
+    justify-content: center;
+  }
+  
+  .leyenda-items {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
