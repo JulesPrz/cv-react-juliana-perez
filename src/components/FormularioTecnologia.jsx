@@ -36,7 +36,6 @@ const FormularioTecnologia = ({ onAgregarTecnologia }) => {
       padding: '2rem',
       background: '#1a1a1a',
       borderRadius: '12px',
-      border: '2px solid #830f85ff'
     }}>
       <h2 style={{ 
         color: '#ffffff', 
@@ -71,7 +70,7 @@ const FormularioTecnologia = ({ onAgregarTecnologia }) => {
               padding: '0.75rem',
               fontSize: '1rem',
               borderRadius: '8px',
-              border: '2px solid #830f85ff',
+              border: '2px solid #a855f7',
               background: '#2d2d2d',
               color: '#ffffff',
               outline: 'none',
@@ -99,9 +98,7 @@ const FormularioTecnologia = ({ onAgregarTecnologia }) => {
               padding: '0.75rem',
               fontSize: '1rem',
               borderRadius: '8px',
-              border: '2px solid #830f85ff',
               background: '#2d2d2d',
-              color: '#ffffff',
               cursor: 'pointer',
               outline: 'none'
             }}
@@ -119,7 +116,7 @@ const FormularioTecnologia = ({ onAgregarTecnologia }) => {
             padding: '0.875rem 2rem',
             fontSize: '1rem',
             fontWeight: '700',
-            background: 'linear-gradient(135deg, #830f85ff 0%, #a855f7 100%)',
+            background: '#a855f7',
             color: 'white',
             border: 'none',
             borderRadius: '8px',
@@ -130,7 +127,6 @@ const FormularioTecnologia = ({ onAgregarTecnologia }) => {
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = 'translateY(-2px)';
-            e.currentTarget.style.boxShadow = '0 6px 12px rgba(131, 15, 133, 0.5)';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = 'translateY(0)';
