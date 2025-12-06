@@ -44,5 +44,5 @@ El proyecto estará disponible en `http://localhost:5173`
 
 ## Licencia
 
-Este proyecto fue desarrollado como parte de la formación en SENA - Análisis y Desarrollo de Software.
+Este proyecto fue desarrollado como parte de la formación en SENA - Análisis y Desarrollo de Software
 
